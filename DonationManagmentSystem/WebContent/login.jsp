@@ -26,7 +26,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-   <div class="logmod" style="overflow: scroll;">
+   <div class="logmod">
   <div class="logmod__wrapper">
   <span class="logmod__close"  onClick="location.href='index.html'">Close</span> 
     <div class="logmod__container">
@@ -39,7 +39,7 @@
         <div class="logmod__heading">
           <span class="logmod__heading-subtitle">Enter your personal details <strong>to create an acount</strong></span>
         </div>
-        <div class="logmod__form" >
+        <div class="logmod__form" style="height: 450px; overflow: scroll;">
           <form accept-charset="utf-8" action="#" class="simform">
 		  <div class="sminputs">
               <div class="input full">
@@ -387,11 +387,12 @@
                 <input class="string optional" maxlength="255" id="user-poino" placeholder="12345" type="text" size="100" required/>
               </div>
             </div>
+			</br>
 			
           <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
-              <input type="submit" class="btn btn-danger" style="position:relative; left:20%" value="Sign in">
-              <span></span>
+             <p> <input type="submit" class="btn btn-danger" style="position:relative; left:20%" value="Sign in"></p>
+              </br>
               
             </div>
           </div>
@@ -420,7 +421,8 @@
             </div>
            <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
-              <input type="submit"  class="btn btn-danger" style="position:relative; left:20%; top:20%  " value="login">
+             <input type="submit"  class="btn btn-danger" style="position:relative; left:20%; " value="login">
+			 
               <span></span>
              </br></br>
             </div>
